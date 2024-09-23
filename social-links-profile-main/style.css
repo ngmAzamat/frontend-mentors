@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./transfonter.org-20240919-101651/Inter-SemiBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./transfonter.org-20240919-101651/Inter-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./transfonter.org-20240919-101651/Inter-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container {
+  padding: 25px;
+  width: 460px;
+  background-color: #222;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: "Inter";
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.yellow {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  color: yellow;
+  font-weight: 900;
+}
+
+div {
+  background-color: #333;
+  padding: 1px;
+  margin: 15px;
+  border-radius: 10px;
+}

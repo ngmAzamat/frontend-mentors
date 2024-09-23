@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ccffcc;
+}
+
+.container {
+  padding: 20px;
+  border: 1px solid red;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+}
