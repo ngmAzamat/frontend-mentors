@@ -28,22 +28,37 @@
   <body>
     <main class="container">
       <h1>Contact Us</h1>
-      <p>First Name</p>
-      <input type="text" />
-      is required This field
-      <p>Last Name</p>
-      <input type="text" />
 
-      This field is required
+    <div class="headers">
+      <div id="names">
+        <p>First Name</p>
+        <input id="name" type="text" required />
+      <!-- is This field -->
+      </div>
+      <div id="names">
+        <p>Last Name</p>
+        <input id="name" type="text" required />
+      </div>
+    </div>
+
+      <!-- This field is -->
+    <div>
       <p>Email Address</p>
-      <input type="text" />
-
-      Please enter a valid email address This field is required Query Type
-      General Enquiry Support Request Please select a query type Message This
-      field is required I consent to being contacted by the team To submit this
-      form, please consent to being contacted Submit Message Sent! Thanks for
-      completing the form. We'll be in touch soon!
-      <button>submit</button>
+      <input type="email" id="email" required />
+    </div>
+      <!-- Please enter a valid email address This field is required Query Type
+      General Enquiry Support Request Please select a query type -->
+      <p>Message</p>
+      <input type="text" required />
+      <!-- This field is -->
+      <div class="con">
+        <input type="checkbox" class="checkbox-input">
+        <label class="checkbox-label">I consent to being contacted by the team</label>
+      </div>
+      <!-- To submit this form, please consent to being contacted Submit Message
+        Sent! Thanks for completing the form. We'll be in touch soon! -->
+        <button>submit</button>
+      </p>
     </main>
   </body>
 </html>
